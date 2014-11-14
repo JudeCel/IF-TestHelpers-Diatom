@@ -1,0 +1,28 @@
+{
+	"name": "if-test-helpers",
+	"version": "0.0.1",
+	"private": true,
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"async": "~0.2.9",
+		"lodash": "~2.1.0",
+		"require-all": "0.0.8",
+		"tap": "~0.4.3",
+		"q": "~0.9.7",
+		"moment": "~2.4.0"
+	},
+    "devDependencies": {
+        "if-data": "git+ssh://git@github.com:JudeCel/IF-Data-Diatom.git",
+	    "if-common": "git+ssh://git@github.com:JudeCel/IF-Common-Diatom.git"
+    },
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/JudeCel/IF-TestHelpers-Diatom.git"
+	},
+	"author": "InsiderFocus",
+	"license": "01"
+}
