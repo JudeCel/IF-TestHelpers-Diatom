@@ -13,12 +13,7 @@ module.exports = function (params) {
 	var sessionIds = params.sessionIds;
 
 	var sql = [
-		'DELETE FROM session_staff WHERE session_id IN (?)',
-		'DELETE FROM session_emails WHERE session_id IN (?)',
-		'DELETE FROM participant_lists WHERE session_id IN (?)',
-		'DELETE FROM offline_transactions WHERE session_id IN (?)',
-		'DELETE FROM topics WHERE session_id IN (?)',
-		'DELETE FROM sessions WHERE id IN (?)'
+		'DELETE FROM topics WHERE session_id IN (?)'
 	];
 
 	var values = [];
