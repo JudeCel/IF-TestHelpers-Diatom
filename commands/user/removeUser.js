@@ -13,7 +13,7 @@ module.exports = function (params) {
 	var userIds = params.userIds;
 
 	var sql = [
-		'DELETE FROM client_users WHERE user_id IN (?)',
+		//'DELETE FROM client_users WHERE user_id IN (?)',
 		'DELETE FROM events WHERE user_id IN (?)',
 		'DELETE FROM offline_transactions WHERE user_id IN (?)',
 		'DELETE FROM participants WHERE user_id IN (?)',
